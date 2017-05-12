@@ -1,7 +1,7 @@
 # SSL_Apache2
 Simple Script To Create a SSL Certificate on Apache for Debian
 
-![SSL_Apache2](https://i.imgur.com/XzX8pfp.png)
+![SSL_Apache2](https://i.imgur.com/xNTcXFQ.png)
 
 cd /tmp && git clone https://github.com/bxlcity/SSL_Apache2.git
 
