@@ -57,7 +57,7 @@ if [ $(id -u) -ne 0 ]; then
 	exit 1
 fi
 
-print_title "${BGreen}SSL Certificate on Apache for Debian\n"
+print_title "${BGreen}SSL Certificate for Apache2 \n"
 
 echo ""
 echo "${BWhite} _/\/\____________________/\/\________________/\/\______/\/\_________________ "
@@ -82,7 +82,7 @@ sh -c "sudo chmod -R 777 /etc/apache2/ssl/*"
 bak
 sh -c "sudo cp default-ssl.conf /etc/apache2/sites-available/default-ssl.conf"
 sh -c "sudo /etc/init.d/apache2 reload"
-echo "${BWhite}[SSL Certificate Installed on debian ]::${Green} OK"
+echo "${BWhite}[SSL Certificate Installed ]::${Green} OK"
 sh -c "sudo firefox https://127.0.0.1/"
 
 
